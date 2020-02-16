@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"pugnator.users"}],"uuid":"f6709db877d74e1cb6fcc7c7771ae33b"}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"foobar.delta"}],"uuid":"abd2104822a14e67a0b090e1e6ab4fb1"}

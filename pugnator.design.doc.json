@@ -1,0 +1,80 @@
+db.user.insert({
+	user:{
+		"first_name":"Michael",
+		"last_name":"Brown",
+		"middle_name":"Dwight",
+		"dob": 1975-07-09,
+		"email":"MichaelBrown172@Gmail.com",
+		"url":""
+		"date_created": timeStamp() ,
+	},
+	address:{
+		[
+			{
+				"street_number":"12120",
+				"street_name":"Flag Harbor Drive",
+				"city":"Germantown",
+				"State":"Maryland",
+				"zipcode":"20874",
+				"date_created": "timeStamp()"
+				
+			},
+
+			{
+				"street_number":"7922",
+				"street_name":"Grant Drive",
+				"city":"Glenarden",
+				"State":"Maryland",
+				"zipcode":"20706",
+				"date_create": timeStamp()
+				
+			},				
+		]
+
+	},
+
+	"discipline":{ ["Judo","Bjj","Boxing","Muay Thai","Karate"] },
+
+	"dojos":{
+		[{ "name": "College Park Judo Club",
+		   "id":"cpjc",
+	           "street_number":"5051",
+		   "street_name":"Pierce Ave",
+		   "city":"College Park",
+		   "State":"Maryland",
+		   "zipcode":"20740",
+		   
+		 },
+		 { "name": "Washington Judo Club",
+		   "id":"wjc",
+	           "street_number":"3700",
+		   "street_name":"O St NW",
+		   "city":"Washington DC",
+		   "State":"Washington DC",
+		   "zipcode":"20057",
+		   
+		 },
+
+		 { "name": "NIH Judo Club",
+		   "id":"nih",
+	           "street_number":"31",
+		   "street_name":"Center St",
+		   "city":"Bethesda",
+		   "State":"Maryland",
+		   "zipcode":"20892",
+		   
+		 },
+		 
+		]
+	}
+	"registrations"{
+		[
+			{"usjf":"69477"},
+                ]
+	
+	},
+
+	"date_created":ctimestamp,
+	"modified_at":[]
+
+}
